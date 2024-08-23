@@ -1,5 +1,5 @@
 ##### this is the code for the final project of the course AEDA
-##### It was done by Alain Chupa Ballesteros and Birger Vedder-Stute 
+##### It was done by Alain Chupa Ballesteros
 rm(list = ls()) # delete all variables
 # load packages
 library(rpart)
@@ -17,7 +17,7 @@ library(cluster)
 library(factoextra)
 library(FactoMineR)
 # load the data
-setwd("C:/Users/Birge/OneDrive - Technische Universität Dortmund/Semester/Auslandsemester (8.)/Advanced Engineering Data Analysis/FinalProject/house-prices-advanced-regression-techniques")
+setwd("C:/Users/Alain/OneDrive/Exchange/Advanced Engineering Data Analysis/FinalProject/house-prices-advanced-regression-techniques")
 getwd()
 Data <- read.csv("train.csv", header = TRUE)
 # general overview over the data
